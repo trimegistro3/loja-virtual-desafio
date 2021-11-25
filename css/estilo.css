@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+background-color:black;
+
+
+
+}
+.ul1{
+    list-style: none;
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  
+
+}
+ul{
+    padding: 30px;
+}
+.logo{
+     height: 400px; */
+}
+.logo img {
+width: 35%;
+
+}
+.produtos{
+border: 3px solid black;
+margin: 10px;
+
+}
+.c
+
+/* a:link{ 
+ text-decoration:none; 
+ list-style: none;
+ color: black;
+}  */
+
+/* 
+.wrapperHeader{
+    position: relative;
+    background-image:img/logo.png; */
+    
+}
+/* .header{
+    left: 50%;
+    margin: left 0;
+    background:black no-repeat;
+     width:max-content
+
+    height:180px;
+    
+} */
+
+    
+
