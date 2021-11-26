@@ -17,15 +17,14 @@ margin-bottom: 45px;
 
 .ul1{
     list-style: none;
-    text-decoration: unset;
     color: red;
     font-size: 22px;
     display: flex;    
     justify-content: space-around;
     align-items: center;
     }
-a{
-    text-decoration: unset;
+.ul1 a{
+    text-decoration: none;
     
 }
 .navegacao{
@@ -33,13 +32,13 @@ a{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    text-decoration: unset;
+  
   
 }
 
 ul{
     padding: 30px;
-    text-decoration: none;
+   
 }
 .logo{
      height: 80px; 
@@ -57,11 +56,12 @@ margin: 30px;
 .container-produtos {
     display: flex;
     justify-content: center;
-    text-align: center;    
+    text-align: center;  
+      
 }
 footer{
     display: flex;
-    justify-content: cente;
+    justify-content: center;
     position: relative;
     bottom: 0;
     background-color: black;
@@ -72,10 +72,34 @@ footer{
     font-size: 14px;
     text-align: center;
 }
+.container-descricao{
+    height: 630px;
+}
+a{
+    color: unset;
+}
+.container1{
+    height: 650px;
+}
+@media only screen and (max-width: 1024px) {
+.container-produtos{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 630px;
+    padding-left: 150px;
+}
+
+
+}
 
 @media only screen and (max-width: 375px) {
-    .ul1{
-        font-size: 10px;
+       .ul1{
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+
+    .container-produtos{
+display: contents;
     }
 .header{
     margin-bottom: 25px;
